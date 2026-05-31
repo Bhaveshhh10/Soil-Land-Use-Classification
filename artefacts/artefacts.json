@@ -1,0 +1,103 @@
+{
+  "classes": [
+    "AnnualCrop",
+    "Forest",
+    "HerbaceousVegetation",
+    "Highway",
+    "Industrial",
+    "Pasture",
+    "PermanentCrop",
+    "Residential",
+    "River",
+    "SeaLake"
+  ],
+  "num_classes": 10,
+  "img_size": 64,
+  "se_acc": 92.44,
+  "se_f1": 0.9228,
+  "van_acc": 89.87,
+  "van_f1": 0.8957,
+  "routed_acc": 94.33,
+  "routed_f1": 0.9416,
+  "n_se_direct": 4590,
+  "n_knn_routed": 810,
+  "n_test": 5400,
+  "ml_results": {
+    "Logistic Regression": {
+      "acc": 43.48,
+      "f1": 0.415
+    },
+    "KNN (k=5)": {
+      "acc": 28.17,
+      "f1": 0.2225
+    },
+    "Decision Tree": {
+      "acc": 51.22,
+      "f1": 0.5039
+    },
+    "Random Forest": {
+      "acc": 66.06,
+      "f1": 0.6429
+    }
+  },
+  "clustering": {
+    "km_ari": 0.1,
+    "km_nmi": 0.189,
+    "km_sil": -0.071,
+    "kmed_ari": 0.009,
+    "kmed_sil": 0.085
+  },
+  "history": {
+    "phase1_val_acc": [
+      0.7817,
+      0.7761,
+      0.8444,
+      0.8035,
+      0.8319,
+      0.8524,
+      0.8556,
+      0.8628,
+      0.8657,
+      0.8794,
+      0.8661,
+      0.8696
+    ],
+    "phase2_val_acc": [
+      0.8939,
+      0.9019,
+      0.9002,
+      0.8898,
+      0.8961,
+      0.9039,
+      0.8989,
+      0.9024,
+      0.9074,
+      0.9019
+    ],
+    "phase3_val_acc": [
+      0.9017,
+      0.9113,
+      0.9028,
+      0.9017,
+      0.8885,
+      0.9087,
+      0.9187,
+      0.9126,
+      0.918,
+      0.9157,
+      0.9194,
+      0.9119,
+      0.9244,
+      0.9143,
+      0.9131,
+      0.9141,
+      0.913,
+      0.9172
+    ]
+  },
+  "difficulty": [],
+  "tier_easy_max": 0.33,
+  "tier_med_max": 0.66,
+  "confidence_threshold": 0.6,
+  "source": "notebook28be1f76d9.ipynb"
+}

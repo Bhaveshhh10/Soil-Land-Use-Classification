@@ -1,0 +1,22 @@
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE settings
+.vscode/
+.idea/
+
+# Streamlit secrets (local config)
+.streamlit/secrets.toml
+
+# System files
+Thumbs.db
+Desktop.ini
+.DS_Store
